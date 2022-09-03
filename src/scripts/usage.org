@@ -1,0 +1,9 @@
+entity----实体，具体编译的一个项目
+gmake----gnu构建系统的公共部分
+cmake----cmake构建系统的公共部分
+moudle----创建新的module
+divide----将module分开成多个git submodule
+refine----提炼需要的module给第三方使用
+ibuild----build系统的公共部分
+outlet----将编译的结果文件发布到服务器上
+icrack----仿真调试，使用gdb查找问题
