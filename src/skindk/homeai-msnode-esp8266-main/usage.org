@@ -1,5 +1,0 @@
-entity----项目实体全部分类放在这个目录下
-oattach----对各个模块的库补丁放在这个目录下
-oobject----对各个模块的库替换文件放在这个目录下
-platsdk----本skiner的sdk放在本目录下
-scripts----skiner相关的脚本放在本目录下
