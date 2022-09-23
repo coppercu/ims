@@ -1,5 +1,5 @@
 menu ""
-	rsouce "iflash/Iconfig"
+	rsouce "Iconfig"
 endmenu
 
 menu "system"
