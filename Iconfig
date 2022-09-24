@@ -1,9 +1,16 @@
-menu ""
-	rsouce "Iconfig"
+# -*- coding: utf-8 -*-
+#
+# kconfig配置文件
+#
+
+menu "skinio"
+	rsource "src/skinio/Iconfig"
 endmenu
 
 menu "system"
+	rsource "src/system/Iconfig"
 endmenu
 
-menu "cortex"
+menu "treary"
+	rsource "src/treary/Iconfig"
 endmenu
