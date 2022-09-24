@@ -1,0 +1,12 @@
+# -*- coding: utf-8 -*-
+#
+# Iconfig配置文件
+#
+
+menuconfig SEIZE
+    bool "替换"
+    help
+        占位空间
+if SEIZE
+    rsource "seize/Iconfig"
+endif
