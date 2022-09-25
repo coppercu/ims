@@ -1,10 +1,10 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 #
 #
 #
 
 if [ ! -f ../../../../../../../imk/src/scripts/entity/shrink.sh ]; then
-    read -p "entity_shrink.sh未找到，确认imk工程是否加载" key
+    read -p "shrink.sh未找到，确认imk工程是否加载" key
     exit
 fi
-source ../../../../../../../imk/src/scripts/entity/shrink.sh
+source ../../../../../../../imk/src/scripts/entity/shrink.sh $PWD
