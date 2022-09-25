@@ -3,8 +3,8 @@
 #
 #
 
-if [ ! -f ../../../../../../../imk/src/scripts/entity/entity_spread.sh ]; then
+if [ ! -f ../../../../../../../imk/src/scripts/entity/spread.sh ]; then
     read -p "entity_spread.sh未找到，确认imk工程是否加载" key
     exit
 fi
-source ../../../../../../../imk/src/scripts/entity/entity_spread.sh
+source ../../../../../../../imk/src/scripts/entity/spread.sh
