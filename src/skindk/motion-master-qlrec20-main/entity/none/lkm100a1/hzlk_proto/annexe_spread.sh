@@ -7,15 +7,15 @@ pushd ../../../../../../../ > /dev/null
 
 imx_path=`pwd`
 
-if [ -f imk.path ]; then
-    imk_path_cite=`cat imk.path`
+if [ -f imk.txt ]; then
+    imk_cite=`cat imk.txt`
 else
-    imk_path_cite=imk
+    imk_cite=imk
 fi
-if [ ! -d $imk_path_cite ]; then
+if [ ! -d $imk_cite ]; then
     read -p "imk路径未找到，请输入任意键退出" key
 else
-    pushd $imk_path_cite > /dev/null
+    pushd $imk_cite > /dev/null
     imk_path=`pwd`
     popd > /dev/null
 fi
