@@ -3,9 +3,6 @@
 # kconfig配置文件
 #
 
-menu "test"
-endmenu
-
 # menu "skinio"
 # 	rsource "src/skinio/Iconfig"
 # endmenu
