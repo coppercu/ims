@@ -14,6 +14,7 @@ else
 fi
 if [ ! -d $imk_cite ]; then
     read -p "imk路径未找到，请输入任意键退出" key
+    exit
 else
     pushd $imk_cite > /dev/null
     imk_path=`pwd`
