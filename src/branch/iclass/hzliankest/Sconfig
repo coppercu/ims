@@ -1,0 +1,5 @@
+menuconfig HZLIANKEST
+    bool
+    prompt "hzliankest liankest的项目"
+    help
+        ddddd

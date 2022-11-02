@@ -12,8 +12,13 @@
 /update_revamp.sh
 /outlet_revamp.sh
 /revamp_origin.sh
-/Sconfig
+/Sconfig.root
 /update_origin.sh
 /Icoupig.sh
 /regain_revamp.sh
 /outlet_touch.sh
+entity.jconfig
+entity.sconfig
+Icoupig
+Iconfig_master
+Iconfig_assist
