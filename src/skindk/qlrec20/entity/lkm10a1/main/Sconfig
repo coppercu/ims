@@ -2,3 +2,12 @@
 #
 #
 #
+
+menuconfig MAIN
+    bool
+    prompt "main"
+    help
+        main
+
+if MAIN
+endif

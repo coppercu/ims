@@ -2,3 +2,12 @@
 #
 #
 #
+
+menuconfig HZLK_PROTO
+    bool
+    prompt "hzlk_proto"
+    help
+        hzlk_proto
+
+if HZLK_PROTO
+endif

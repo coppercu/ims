@@ -1,16 +1,22 @@
 # -*- coding: utf-8 -*-
 #
-# kconfig配置文件
+# ims的Sconfig
 #
 
-# menu "skinio"
-# 	rsource "src/skinio/Iconfig"
-# endmenu
-#
-# menu "system"
-# 	rsource "src/system/Iconfig"
-# endmenu
-#
-# menu "treary"
-# 	rsource "src/treary/Iconfig"
-# endmenu
+menuconfig IMS
+    bool
+    prompt "ims"
+    help
+        ims
+
+if IMS
+
+menu "system"
+	rsource "src/system/Sconfig"
+endmenu
+
+menu "treary"
+	rsource "src/treaty/Sconfig"
+endmenu
+
+endif

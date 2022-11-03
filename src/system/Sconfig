@@ -3,10 +3,16 @@
 # Iconfig配置文件
 #
 
-menuconfig SEIZE
-    bool "替换"
+menuconfig WCLOCK
+    bool "wclock"
+    default y
     help
-        占位空间
-if SEIZE
-    rsource "seize/Iconfig"
+        墙上时间
+
+if WCLOCK
+    config WCLOCK_DAMP
+        bool "damp"
+        default y
+        help
+            支持阻尼
 endif

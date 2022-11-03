@@ -2,3 +2,12 @@
 #
 #
 #
+
+menuconfig LKM10A1
+    bool
+    prompt "lkm10a1"
+    help
+        lkm10a1
+
+if LKM10A1
+endif

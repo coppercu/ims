@@ -1,5 +1,13 @@
+# -*- coding: utf-8 -*-
+#
+#
+#
+
 menuconfig HZLIANKEST
     bool
-    prompt "hzliankest liankest的项目"
+    prompt "hzliankest"
     help
-        ddddd
+        hzliankest
+
+if HZLIANKEST
+endif

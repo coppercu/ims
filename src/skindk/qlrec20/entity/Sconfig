@@ -2,3 +2,12 @@
 #
 #
 #
+
+menuconfig QLREC20
+    bool
+    prompt "qlrec20"
+    help
+        qlrec20
+
+if QLREC20
+endif
