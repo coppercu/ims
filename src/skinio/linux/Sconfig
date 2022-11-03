@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+#
+# skinio的Sconfig
+#
+
+menuconfig LINUX
+    bool
+    prompt "linux"
+    help
+        linux
+
+if LINUX
+
+endif

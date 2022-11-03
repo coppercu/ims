@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+#
+#
+#
+
+menuconfig LKPROTO
+    bool
+    prompt "lkproto"
+    help
+        lkproto
+
+if LKPROTO
+endif
