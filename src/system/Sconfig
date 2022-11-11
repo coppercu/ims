@@ -1,18 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# Iconfig配置文件
+# Sconfig配置文件
 #
 
-menuconfig WCLOCK
-    bool "wclock"
-    default y
-    help
-        墙上时间
-
-if WCLOCK
-    config WCLOCK_DAMP
-        bool "damp"
-        default y
-        help
-            支持阻尼
-endif
+menu "system"
+endmenu

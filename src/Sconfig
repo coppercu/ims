@@ -1,0 +1,6 @@
+rsource "skinio/Sconfig"
+rsource "system/Sconfig"
+rsource "borrow/Sconfig"
+rsource "treaty/Sconfig"
+rsource "branch/Sconfig"
+rsource "skindk/Sconfig"

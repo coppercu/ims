@@ -11,12 +11,6 @@ menuconfig IMS
 
 if IMS
 
-menu "system"
-	rsource "src/system/Sconfig"
-endmenu
-
-menu "treary"
-	rsource "src/treaty/Sconfig"
-endmenu
+rsource "src/Sconfig"
 
 endif
