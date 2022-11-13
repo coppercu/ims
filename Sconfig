@@ -3,14 +3,8 @@
 # ims的Sconfig
 #
 
-menuconfig IMS
-    bool
-    prompt "ims"
-    help
-        ims
-
-if IMS
+menu "ims"
 
 rsource "src/Sconfig"
 
-endif
+endmenu

@@ -17,3 +17,10 @@
 /Icoupig.sh
 /regain_revamp.sh
 /outlet_touch.sh
+/entity.jconfig
+/entity.sconfig
+.config
+.config.old
+/Icoupig
+/Iconfig_master
+/Iconfig_assist
