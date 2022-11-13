@@ -1,0 +1,7 @@
+menuconfig LINUX
+    bool "linux"
+    default y
+    help
+        linux
+if LINUX
+endif
